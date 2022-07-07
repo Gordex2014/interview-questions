@@ -58,7 +58,7 @@ public class Computer : IComputer
         Printer.Specs();
         Console.WriteLine("Computer properties");
         Console.WriteLine($"Processor brand: {ProcessorBrand}");
-        Console.WriteLine($"Processor frequency: {ProcessorBrand}");
+        Console.WriteLine($"Processor frequency: {ProcessorFrequency}");
         Console.WriteLine($"Ram brand: {RamBrand}");
         Console.WriteLine($"Ram memory: {RamMemory}");
         Console.WriteLine($"Dedicated Graphics: {DedicatedGraphics}");
